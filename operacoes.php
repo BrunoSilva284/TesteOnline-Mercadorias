@@ -20,7 +20,7 @@
 	</head>
 
 	<body>
-		<!-- BARRA DE NAVEGAÇÃO -->
+		<!-- BARRA DE NAVEGAÃ‡ÃƒO -->
 		<nav class="navbar navbar-inverse">
 			<div class="container-fluid">
 				<div class="navbar-header">
@@ -74,7 +74,7 @@
 						$db = "teste";
 						$conn = new mysqli($server, $username, $password, $db);
 							
-						// Checar conexão
+						// Checar conexÃ£o
 						if ($conn->connect_error) {
 							die("Falha na conex&atilde;o: " . $conn->connect_error);
 						}
@@ -157,7 +157,9 @@
 					}							
 					else 
 					{
-						echo "Sem resultados";
+						echo '<div class="alert alert-danger">
+  							<strong>Aten&ccedil;&atilde;o!</strong>Sem resultados.
+						      </div>';
 					}	
 					?>	
 				</div><!-- corpo painel -->
