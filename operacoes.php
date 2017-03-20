@@ -157,7 +157,7 @@
 					}							
 					else 
 					{
-						echo '<div class="alert alert-danger"><strong>Aten&ccedil;&atilde;o!</strong>Sem resultados.</div>';	      
+						echo "Aten&ccedil;&atilde;o!Sem resultados.";	      
 					}	
 					?>	
 				</div><!-- corpo painel -->
