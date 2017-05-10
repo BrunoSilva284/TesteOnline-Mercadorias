@@ -51,7 +51,7 @@
 			document.cadastro.qtd.focus();
 			return false;//para de executar
 		}
-		//		Preço vazio?
+		//		Pre?o vazio?
 		var preco = document.cadastro.preco.value;
 		if(preco=="")
 		{
@@ -59,8 +59,8 @@
 			document.cadastro.preco.focus();
 			return false;//para de executar
 		}
-		// Valida se é um float
-		var valido = (preco.match(/^(?!0\d)\d*(\.\d+)?$/mg));//expressao compara se há somente números e talvez um ponto
+		// Valida se ? um float
+		var valido = (preco.match(/^(?!0\d)\d*(\.\d+)?$/mg));//expressao compara se h? somente n?meros e talvez um ponto
 		if(!valido){	//se nao for valido
 			window.alert("Valor invalido!\nUtilize ponto(.) ao inves da virgula.");
 			document.cadastro.preco.focus();
@@ -78,7 +78,7 @@
 		// Tipo de negocio
 		var radio = document.getElementsByName("opradio");
 		//radio 0=Compra radio 1=venda
-		if(radio[0].checked == radio[1].checked)//só podem ser iguals se não foram selecionados
+		if(radio[0].checked == radio[1].checked)//s? podem ser iguals se n?o foram selecionados
 		{
 			window.alert("Preencha o tipo de negocio!");
 			document.radio.focus();
@@ -106,7 +106,7 @@
 	</head>
 
 	<body>
-		<!-- BARRA DE NAVEGAÇÃO -->
+		<!-- BARRA DE NAVEGA??O -->
 		<nav class="navbar navbar-inverse">
 			<div class="container-fluid">
 				<div class="navbar-header">
@@ -127,7 +127,7 @@
 			</div>
 		</nav>
 				
-		<!--  cadastrar ação mercadoria -->
+		<!--  cadastrar a??o mercadoria -->
 		<div class="container">		<!-- centraliza -->
 			<div class="panel-group">			<!-- painel -->
 				<div class="panel panel-primary"> <!--  estilo painel -->

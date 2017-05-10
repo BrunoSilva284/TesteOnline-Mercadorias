@@ -2,9 +2,9 @@
 //conexao
 $server = "localhost";
 $username = "root";
-$password = "vertrigo";
+//$password = "root";
 $db = "teste";
-$conn = new mysqli($server, $username, $password, $db);
+$conn = new mysqli($server, $username, null, $db);
 
 // Checar conexão
 if ($conn->connect_error) {
