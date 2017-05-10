@@ -35,7 +35,7 @@
 	}
 	function validaTextos()
 	{
-		//	Nome vazio?
+		//	Nome vazio?lalalla
 		var nome = document.cadastro.nome.value;
 		if(nome=="")
 		{
